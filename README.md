@@ -83,7 +83,7 @@ Le fichier _Wsiv.wsdl_ à utiliser pour accéder à l'[API Temps Réel RATP](htt
 ## Auteur
 * **Jonathan Perron** - [Mon site](http://www.jonathanperron.fr)
 
-[Liste complète des contributeurs](https://github.com/qualib/contributors)
+[Liste complète des contributeurs](https://github.com/jonperron/qualib/contributors)
 
 ## Licence
 
