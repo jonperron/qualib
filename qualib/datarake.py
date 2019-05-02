@@ -16,6 +16,8 @@ import os
 
 import requests
 
+from bs4 import BeautifulSoup
+from datetime import datetime
 from logging.handlers import RotatingFileHandler
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
@@ -38,17 +40,17 @@ class DataRake:
     """
     def __init__(self, *args, **kwargs)-> None:
         self.stations = None
-        self.get_stops()
+        self.get_stations()
 
     def get_stations(self) -> None:
         """
         Get stations from configuration/train_stations.json file
         """
         stations = []
-        with open("configuration/train_stations.json") as json_file:
+        with open("qualib/configuration/train_stations.json") as json_file:
             train_stations = json.load(json_file)
-            with station in train_stations:
-                stop.append({
+            for station in train_stations:
+                stations.append({
                     "gtfs": station.get("GTFS"),
                     "name": station.get("Nom"),
                     "longitude": station.get("Longitude"),
@@ -73,7 +75,7 @@ class SNCFDataRake(DataRake):
         """
         Get auth credentials from configuration/sncf_credentials.json file
         """
-        with open("configuration/sncf_credentials.json") as json_file:
+        with open("qualib/configuration/sncf_credentials.json") as json_file:
             credentials = json.load(json_file)
             self.login = credentials["SNCFAPILogin"]
             self.password = credentials["SNCFAPIPassword"]
@@ -99,20 +101,18 @@ class SNCFDataRake(DataRake):
         session.mount('http://', adapter)
         session.mount('https://', adapter)
 
-        # Init beautifulsoup
-        soup = BeautifulSoup(r.content, "lxml-xml")
-
         # Read data from APIs
         for station in sncf_stations:
             try:
-                r = session.get('http://api.transilien.com/gare/{0}/depart/'.format(station["gtfs"]))
+                r = session.get('http://api.transilien.com/gare/{0}/depart/'.format(station["sncfID"]))
+                soup = BeautifulSoup(r.content, "lxml-xml")
                 next_stops = soup.find_all("train")
                 for stop in next_stops:
                     mission = TrainStop.create(
                         station=station["name"],
-                        code=stop.find("miss"),
+                        code=str(stop.find("miss").contents[0].string),
                         network="SNCF",
-                        date=datetime.strptime(mission.find("date").text,"%d/%m/%Y %H:%M"),
+                        date=datetime.strptime(str(stop.find("date").contents[0].string), "%d/%m/%Y %H:%M"),
                     )
             except Exception as e:
-                logging.error("%s", str(e))
+                logging.error("SNCFrake got the following error: %s", str(e))
