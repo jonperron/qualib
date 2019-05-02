@@ -1,0 +1,345 @@
+[
+   {
+      "GTFS":"DUA8775867",
+      "Nom":"Arcueil Cachan",
+      "Longitude":48.79944444,
+      "Latitude":2.32833333,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727143",
+      "Nom":"Vert-Galant",
+      "Longitude":48.94416667,
+      "Latitude":2.56666667,
+      "SncfId":"87271437"
+   },
+   {
+      "GTFS":"DUA8775870",
+      "Nom":"Sceaux",
+      "Longitude":48.78138889,
+      "Latitude":2.29722222,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775875",
+      "Nom":"Antony",
+      "Longitude":48.755,
+      "Latitude":2.30083333,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775873",
+      "Nom":"Parc de Sceaux",
+      "Longitude":48.77083333,
+      "Latitude":2.31027778,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775885",
+      "Nom":"Bures Sur Yvette",
+      "Longitude":48.69583333,
+      "Latitude":2.16305556,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727151",
+      "Nom":"Villeparisis Mitry",
+      "Longitude":48.95305556,
+      "Latitude":2.60277778,
+      "SncfId":"87271510"
+   },
+   {
+      "GTFS":"DUA8775862",
+      "Nom":"Port Royal",
+      "Longitude":48.84,
+      "Latitude":2.33694444,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775886",
+      "Nom":"La Hacquiniere",
+      "Longitude":48.69472222,
+      "Latitude":2.15305556,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775882",
+      "Nom":"Lozere",
+      "Longitude":48.70611,
+      "Latitude":2.211667,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775874",
+      "Nom":"La Croix de Berny",
+      "Longitude":48.76194444,
+      "Latitude":2.30472222,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775861",
+      "Nom":"Luxembourg",
+      "Longitude":48.84666667,
+      "Latitude":2.34027778,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727146",
+      "Nom":"Aeroport Ch.De Gaulle 1",
+      "Longitude":49.01,
+      "Latitude":2.56055556,
+      "SncfId":"87271460"
+   },
+   {
+      "GTFS":"DUA8775877",
+      "Nom":"Les Baconnets",
+      "Longitude":48.73944444,
+      "Latitude":2.2875,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775879",
+      "Nom":"Massy Palaiseau",
+      "Longitude":48.72416667,
+      "Latitude":2.25944444,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775888",
+      "Nom":"Courcelle Sur Yvette",
+      "Longitude":48.70083333,
+      "Latitude":2.09916667,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727102",
+      "Nom":"Gare du Nord",
+      "Longitude":48.88166667,
+      "Latitude":2.35611111,
+      "SncfId":"87271007"
+   },
+   {
+      "GTFS":"DUA8775883",
+      "Nom":"Le Guichet",
+      "Longitude":48.705,
+      "Latitude":2.19138889,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8700147",
+      "Nom":"Aeroport Ch.De Gaulle 2",
+      "Longitude":49.00361111,
+      "Latitude":2.57083333,
+      "SncfId":"87001479"
+   },
+   {
+      "GTFS":"DUA8775864",
+      "Nom":"Cite Universitaire",
+      "Longitude":48.82055556,
+      "Latitude":2.33888889,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727152",
+      "Nom":"Mitry-Claye",
+      "Longitude":48.97583333,
+      "Latitude":2.6425,
+      "SncfId":"87271528"
+   },
+   {
+      "GTFS":"DUA8775863",
+      "Nom":"Denfert Rochereau",
+      "Longitude":48.83388889,
+      "Latitude":2.33277778,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775869",
+      "Nom":"Bourg la Reine",
+      "Longitude":48.78027778,
+      "Latitude":2.31222222,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775866",
+      "Nom":"Laplace",
+      "Longitude":48.8075,
+      "Latitude":2.33305556,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727144",
+      "Nom":"Sevran Beaudottes",
+      "Longitude":48.94805556,
+      "Latitude":2.52444444,
+      "SncfId":"87271445"
+   },
+   {
+      "GTFS":"DUA8727147",
+      "Nom":"Blanc-Mesnil",
+      "Longitude":48.9325,
+      "Latitude":2.47722222,
+      "SncfId":"87271478"
+   },
+   {
+      "GTFS":"DUA8778543",
+      "Nom":"Saint Michel",
+      "Longitude":48.85361111,
+      "Latitude":2.34416667,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727103",
+      "Nom":"Gare du Nord",
+      "Longitude":48.88166667,
+      "Latitude":2.35611111,
+      "SncfId":"87271031"
+   },
+   {
+      "GTFS":"DUA8775880",
+      "Nom":"Palaiseau",
+      "Longitude":48.71777778,
+      "Latitude":2.24666667,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727148",
+      "Nom":"Parc des Expositions",
+      "Longitude":48.97416667,
+      "Latitude":2.51555556,
+      "SncfId":"87271486"
+   },
+   {
+      "GTFS":"DUA8775878",
+      "Nom":"Massy Verrieres",
+      "Longitude":48.73444444,
+      "Latitude":2.27361111,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727130",
+      "Nom":"Aubervilliers",
+      "Longitude":48.92388889,
+      "Latitude":2.38444444,
+      "SncfId":"87271304"
+   },
+   {
+      "GTFS":"DUA8775871",
+      "Nom":"Fontenay aux Roses",
+      "Longitude":48.7875,
+      "Latitude":2.29222222,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727100",
+      "Nom":"Gare du Nord",
+      "Longitude":48.88166667,
+      "Latitude":2.35611111,
+      "SncfId":"87271023"
+   },
+   {
+      "GTFS":"DUA8775872",
+      "Nom":"Robinson",
+      "Longitude":48.78027778,
+      "Latitude":2.28111111,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727141",
+      "Nom":"Aulnay Sous Bois",
+      "Longitude":48.93222222,
+      "Latitude":2.49583333,
+      "SncfId":"87271411"
+   },
+   {
+      "GTFS":"DUA8775889",
+      "Nom":"Saint Remy les Chevreuse",
+      "Longitude":48.70277778,
+      "Latitude":2.07083333,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775868",
+      "Nom":"Bagneux",
+      "Longitude":48.79333333,
+      "Latitude":2.32138889,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727145",
+      "Nom":"Villepinte",
+      "Longitude":48.96305556,
+      "Latitude":2.51222222,
+      "SncfId":"87271452"
+   },
+   {
+      "GTFS":"DUA8727140",
+      "Nom":"Drancy",
+      "Longitude":48.93277778,
+      "Latitude":2.45472222,
+      "SncfId":"87271403"
+   },
+   {
+      "GTFS":"DUA8727142",
+      "Nom":"Sevran-Livry",
+      "Longitude":48.93611111,
+      "Latitude":2.53472222,
+      "SncfId":"87271429"
+   },
+   {
+      "GTFS":"DUA8775887",
+      "Nom":"Gif Sur Yvette",
+      "Longitude":48.69833333,
+      "Latitude":2.13666667,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775881",
+      "Nom":"Palaiseau Villebon",
+      "Longitude":48.70777778,
+      "Latitude":2.23722222,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8727139",
+      "Nom":"Le Bourget",
+      "Longitude":48.93055556,
+      "Latitude":2.42583333,
+      "SncfId":"87271395"
+   },
+   {
+      "GTFS":"DUA8775860",
+      "Nom":"Chatelet",
+      "Longitude":48.86138889,
+      "Latitude":2.34638889,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775876",
+      "Nom":"Fontaine Michalon",
+      "Longitude":48.74333333,
+      "Latitude":2.29638889,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775865",
+      "Nom":"Gentilly",
+      "Longitude":48.81611111,
+      "Latitude":2.34055556,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8775884",
+      "Nom":"Orsay Ville",
+      "Longitude":48.6975,
+      "Latitude":2.18194444,
+      "SncfId":null
+   },
+   {
+      "GTFS":"DUA8716479",
+      "Nom":"La Plaine-Stade de France",
+      "Longitude":48.91805556,
+      "Latitude":2.3625,
+      "SncfId":"87164798"
+   }
+]

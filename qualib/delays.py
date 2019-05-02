@@ -34,23 +34,6 @@ def get_missions_ratp(station,client,line,direction,station_type):
     
     return delays
 
-def get_missions_sncf(station,SNCF_API_LOGIN,SNCF_API_PASSWORD):
-    """
-    Effectue la requete pour chaque station sur l'API open data Transilien de la SNCF
-    """
-    station = ([x[4] for x in Gares.LISTE_GARES if x[1] == station[1]][0],station[1])
-    r = requests.get('http://api.transilien.com/gare/' + station[0] +'/depart/', auth=(SNCF_API_LOGIN, SNCF_API_PASSWORD))
-    soup = BeautifulSoup(r.content, "lxml-xml")
-    next_stops = soup.find_all("train")
-    delays = []
-    for stop in next_stops:
-        mission = Mission()
-        mission.create_mission(station[1],stop.find("miss").text,"SNCF",True)
-        mission.get_mission_date(stop)
-        delays.append((station,get_delays(mission)))
-
-    return delays
-
 def get_delays(mission):
     """
     Analyse le résultat de la requête et indique si le train est en retard ou non.
